@@ -14,11 +14,12 @@ div p:nth-child(2n+1){
     background-color: yellow;
 }
 
-input[type="checkbox"] + label{
+input[type="checkbox"]:checked + label{
     color: aqua;
-    font-size: 20px;
+   
 }
 #btn{
     background-color: purple;
     color: wheat;
+    margin-top: 50px;
 }
